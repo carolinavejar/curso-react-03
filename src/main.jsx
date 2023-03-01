@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const App = ()=> {
-    return (<h1>Hola mundo</h1>)
-};
+import  { App as HelloWorldApp } from './HelloWorldApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <App />
+        <HelloWorldApp />
     </React.StrictMode>
 )
