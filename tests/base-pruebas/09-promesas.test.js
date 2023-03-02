@@ -1,6 +1,6 @@
 import { getHeroeByIdAsync } from "../../src/base-pruebas/09-promesas";
 
-describe('Pruebas en 08-imp-exp', ()=> {
+describe('Pruebas en 09-Promesas', ()=> {
 
     test('getHeroeByIdAsync debe retornar un heroe', (done)=> {
         const id = 1;
