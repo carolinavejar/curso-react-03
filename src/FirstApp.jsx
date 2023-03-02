@@ -20,7 +20,7 @@ export const FirstApp = ( {
 
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
-    subTitle: PropTypes.number
+    subTitle: PropTypes.string
 }
 
 FirstApp.defaultProps = {
