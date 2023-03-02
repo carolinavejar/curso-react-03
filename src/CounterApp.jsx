@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 
+const handleAdd = ()=> console.log("+1");
 
 export const CounterApp = ( { 
     value
@@ -10,6 +11,7 @@ export const CounterApp = ( {
         <h1>CounterApp</h1>
         <h2> { value } </h2>
         
+        <button onClick={ handleAdd }> +1 </button>
         {/* <code>{ JSON.stringify(newMessage) }</code> */}
     </>);
 };
