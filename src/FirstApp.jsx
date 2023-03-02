@@ -1,5 +1,9 @@
+import PropTypes from 'prop-types'
+
 
 export const FirstApp = ( { title, subTitle } )=> { 
+
+    if (!title)
     return (
     <>
         <h1>Primera aplicación</h1>
@@ -11,3 +15,6 @@ export const FirstApp = ( { title, subTitle } )=> {
     </>);
 };
 
+FirstApp.propTypes = {
+    title: PropTypes.string.isRequired
+}
