@@ -10,8 +10,8 @@ export const FirstApp = ( {
     return (
     <>
         <h1>Primera aplicación</h1>
-        <h2> { title } </h2>
-        <h3> { subTitle} </h3>
+        <h2 data-testid="test-title">{ title }</h2>
+        <h3>{ subTitle}</h3>
         <h3> { nameUser } </h3>
         
         {/* <code>{ JSON.stringify(newMessage) }</code> */}
