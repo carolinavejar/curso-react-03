@@ -1,4 +1,5 @@
 const setup = {
+    testEnviroment: 'jest-environment-jsdom',
     setupFiles: ['./jest.setup.js']
 }
  
