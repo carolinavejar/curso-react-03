@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en First App Debe hacer tach con el snapshot 1`] = `
+<div>
+  <h1>
+    Primera aplicación
+  </h1>
+  <h2>
+     
+    Titulo ...
+     
+  </h2>
+  <h3>
+     
+    Sin subtítulo
+     
+  </h3>
+  <h3>
+     
+    Carito
+     
+  </h3>
+</div>
+`;
